@@ -18,3 +18,7 @@ yarn add package-name
 ## process(input)
 
 TODO: Document public API for package.
+
+---
+
+[LICENSE](./LICENSE)
