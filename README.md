@@ -15,6 +15,10 @@ them accordingly.
 yarn add package-name
 ```
 
+## Versioning and release process
+
+See [RELEASE.md](./RELEASE.md).
+
 ## process(input)
 
 TODO: Document public API for package.
