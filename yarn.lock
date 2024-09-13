@@ -94,7 +94,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.21.0, @babel/generator@npm:^7.21.1, @babel/generator@npm:^7.7.2":
+"@babel/generator@npm:^7.21.0, @babel/generator@npm:^7.7.2":
   version: 7.21.1
   resolution: "@babel/generator@npm:7.21.1"
   dependencies:
@@ -150,25 +150,6 @@ __metadata:
   version: 7.18.9
   resolution: "@babel/helper-environment-visitor@npm:7.18.9"
   checksum: b25101f6162ddca2d12da73942c08ad203d7668e06663df685634a8fde54a98bc015f6f62938e8554457a592a024108d45b8f3e651fd6dcdb877275b73cc4420
-  languageName: node
-  linkType: hard
-
-"@babel/helper-function-name@npm:^7.21.0":
-  version: 7.21.0
-  resolution: "@babel/helper-function-name@npm:7.21.0"
-  dependencies:
-    "@babel/template": ^7.20.7
-    "@babel/types": ^7.21.0
-  checksum: d63e63c3e0e3e8b3138fa47b0cd321148a300ef12b8ee951196994dcd2a492cc708aeda94c2c53759a5c9177fffaac0fd8778791286746f72a000976968daf4e
-  languageName: node
-  linkType: hard
-
-"@babel/helper-hoist-variables@npm:^7.18.6":
-  version: 7.18.6
-  resolution: "@babel/helper-hoist-variables@npm:7.18.6"
-  dependencies:
-    "@babel/types": ^7.18.6
-  checksum: fd9c35bb435fda802bf9ff7b6f2df06308a21277c6dec2120a35b09f9de68f68a33972e2c15505c1a1a04b36ec64c9ace97d4a9e26d6097b76b4396b7c5fa20f
   languageName: node
   linkType: hard
 
@@ -349,7 +330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.20.7, @babel/parser@npm:^7.21.0, @babel/parser@npm:^7.21.2":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.20.7, @babel/parser@npm:^7.21.0":
   version: 7.21.2
   resolution: "@babel/parser@npm:7.21.2"
   bin:
@@ -545,25 +526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.21.0, @babel/traverse@npm:^7.21.2":
-  version: 7.21.2
-  resolution: "@babel/traverse@npm:7.21.2"
-  dependencies:
-    "@babel/code-frame": ^7.18.6
-    "@babel/generator": ^7.21.1
-    "@babel/helper-environment-visitor": ^7.18.9
-    "@babel/helper-function-name": ^7.21.0
-    "@babel/helper-hoist-variables": ^7.18.6
-    "@babel/helper-split-export-declaration": ^7.18.6
-    "@babel/parser": ^7.21.2
-    "@babel/types": ^7.21.2
-    debug: ^4.1.0
-    globals: ^11.1.0
-  checksum: d851e3f5cfbdc2fac037a014eae7b0707709de50f7d2fbb82ffbf932d3eeba90a77431529371d6e544f8faaf8c6540eeb18fdd8d1c6fa2b61acea0fb47e18d4b
-  languageName: node
-  linkType: hard
-
-"@babel/traverse@npm:^7.24.7, @babel/traverse@npm:^7.25.2":
+"@babel/traverse@npm:^7.21.0, @babel/traverse@npm:^7.21.2, @babel/traverse@npm:^7.24.7, @babel/traverse@npm:^7.25.2":
   version: 7.25.6
   resolution: "@babel/traverse@npm:7.25.6"
   dependencies:
@@ -3197,15 +3160,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "lru-cache@npm:6.0.0"
-  dependencies:
-    yallist: ^4.0.0
-  checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
-  languageName: node
-  linkType: hard
-
 "lru-cache@npm:^7.7.1":
   version: 7.18.3
   resolution: "lru-cache@npm:7.18.3"
@@ -3904,16 +3858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^6.0.0, semver@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "semver@npm:6.3.0"
-  bin:
-    semver: ./bin/semver.js
-  checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
-  languageName: node
-  linkType: hard
-
-"semver@npm:^6.3.1":
+"semver@npm:^6.0.0, semver@npm:^6.3.0, semver@npm:^6.3.1":
   version: 6.3.1
   resolution: "semver@npm:6.3.1"
   bin:
@@ -3922,18 +3867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5":
-  version: 7.3.8
-  resolution: "semver@npm:7.3.8"
-  dependencies:
-    lru-cache: ^6.0.0
-  bin:
-    semver: bin/semver.js
-  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.3":
+"semver@npm:^7.3.5, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.3":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
   bin:
