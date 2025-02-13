@@ -576,7 +576,7 @@ __metadata:
   dependencies:
     "@types/jest": ^29.5.14
     "@types/lodash": ^4.17.15
-    flow-bin: 0.110.0
+    flow-bin: 0.261.0
     flowgen: ^1.21.0
     jest: ^29.7.0
     jest-environment-jsdom: ^29.7.0
@@ -2082,12 +2082,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:0.110.0":
-  version: 0.110.0
-  resolution: "flow-bin@npm:0.110.0"
+"flow-bin@npm:0.261.0":
+  version: 0.261.0
+  resolution: "flow-bin@npm:0.261.0"
   bin:
     flow: cli.js
-  checksum: 92b4123a170e9d898b947f5f049219a3d216864605ca9f1fb27313de289258852b06ec90908d7f4afb717fad2c25b49f70fd916e0ee8a0e5258b38446f5856e6
+  checksum: 9960660178df658f84e77f4cbb9a05dd1b15dd9f34e7624da7e31c08970433bbbf337195d8a8747e32eae77a762c96e48a6dfa91d9cb6af4f5f7fe2b35ce897d
   languageName: node
   linkType: hard
 
