@@ -579,9 +579,9 @@ __metadata:
     jest: ^29.7.0
     jest-environment-jsdom: ^29.7.0
     lodash: ^4.17.21
-    prettier: ^3.5.3
-    ts-jest: ^29.3.0
-    typescript: ^5.8.2
+    prettier: ^3.6.2
+    ts-jest: ^29.4.1
+    typescript: ^5.9.2
   languageName: unknown
   linkType: soft
 
@@ -3591,7 +3591,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.5.3":
+"prettier@npm:^3.6.2":
   version: 3.6.2
   resolution: "prettier@npm:3.6.2"
   bin:
@@ -4099,7 +4099,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^29.3.0":
+"ts-jest@npm:^29.4.1":
   version: 29.4.1
   resolution: "ts-jest@npm:29.4.1"
   dependencies:
@@ -4169,7 +4169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.8.2":
+"typescript@npm:^5.9.2":
   version: 5.9.2
   resolution: "typescript@npm:5.9.2"
   bin:
@@ -4179,7 +4179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.8.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.9.2#~builtin<compat/typescript>":
   version: 5.9.2
   resolution: "typescript@patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"
   bin:
