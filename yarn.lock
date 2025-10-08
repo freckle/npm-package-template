@@ -735,8 +735,8 @@ __metadata:
   dependencies:
     "@types/jest": ^30.0.0
     "@types/lodash": ^4.17.20
-    jest: ^30.0.0
-    jest-environment-jsdom: ^30.0.0
+    jest: ^30.0.5
+    jest-environment-jsdom: ^30.0.5
     lodash: ^4.17.21
     prettier: ^3.6.2
     ts-jest: ^29.4.4
@@ -3041,7 +3041,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^30.0.0":
+"jest-environment-jsdom@npm:^30.0.5":
   version: 30.2.0
   resolution: "jest-environment-jsdom@npm:30.2.0"
   dependencies:
@@ -3391,7 +3391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^30.0.0":
+"jest@npm:^30.0.5":
   version: 30.2.0
   resolution: "jest@npm:30.2.0"
   dependencies:
