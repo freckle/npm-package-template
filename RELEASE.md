@@ -1,34 +1,13 @@
 # Releases
 
-## Versioning
+To trigger a release, merge a commit to `main` that follows [Conventional
+Commits][]. In short,
 
-Versioned tags will exist, such as `v1.0.0` and `v2.1.1`. Branches will exist
-for each major version, such as `v1` or `v2` and contain the newest version in
-that series.
+- `fix:` to trigger a patch release
+- `feat:` to trigger a minor release
+- `<type>!:` or use a `BREAKING CHANGE:` footer to trigger a major release
 
-## Release process
+We don't enforce conventional commits generally (though you are free do so),
+it's only required if you want to trigger release.
 
-Given a latest version of v1.0.1,
-
-Is this a new major version?
-
-If yes,
-
-```console
-git checkout main
-git pull
-git checkout -b v2
-git tag -s -m v2.0.0 v2.0.0
-git push --follow-tags
-```
-
-Otherwise,
-
-```console
-git checkout main
-git pull
-git checkout v1
-git merge --ff-only -
-git tag -s -m v1.0.2 v1.0.2    # or v1.1.0
-git push --follow-tags
-```
+[conventional commits]: https://www.conventionalcommits.org/en/v1.0.0/#summary
