@@ -11,6 +11,8 @@ permissions:
 
 jobs:
   release:
+    if: false # remove this when you are ready to release your package
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
