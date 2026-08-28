@@ -4,6 +4,7 @@
   "description": "TODO: Package description",
   "author": "Freckle",
   "license": "MIT",
+  "type": "module",
   "main": "./dist/index.js",
   "files": [
     "dist"

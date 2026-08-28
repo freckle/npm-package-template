@@ -1,4 +1,4 @@
-import {process} from '.'
+import {process} from './index.js'
 
 describe('Package name', () => {
   describe('process', () => {
