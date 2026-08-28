@@ -22,6 +22,7 @@ jobs:
       - run: pnpm build
       - run: pnpm test
       - run: pnpm lint
+      - run: pnpm knip
       - uses: freckle/check-git-clean-action@v1
         with:
           hint: "Run pnpm build to update your dist/"

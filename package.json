@@ -13,12 +13,14 @@
     "build": "rm -r dist && tsc -d",
     "test": "vitest run",
     "format": "prettier --write 'src/**/*.ts'",
-    "lint": "eslint"
+    "lint": "eslint",
+    "knip": "knip"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.9.1",
     "jsdom": "^30.0.1",
+    "knip": "^6.32.3",
     "prettier": "^3.9.6",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.68.0",
