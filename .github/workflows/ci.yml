@@ -19,10 +19,11 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install
-      - run: pnpm build
-      - run: pnpm test
+      - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm knip
+      - run: pnpm test
+      - run: pnpm build
       - uses: freckle/check-git-clean-action@v1
         with:
           hint: "Run pnpm build to update your dist/"

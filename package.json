@@ -10,8 +10,9 @@
     "url": "git+https://github.com/freckle/package-name-js.git"
   },
   "scripts": {
-    "build": "rm -r dist && tsc -d",
+    "build": "rm -r dist && tsc -p tsconfig.build.json",
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "format": "prettier --write 'src/**/*.ts'",
     "lint": "eslint",
     "knip": "knip"
