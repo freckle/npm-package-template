@@ -8,9 +8,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'lcov'],
-      // Gates `pnpm coverage` (and CI) at 70% on all four metrics. Delete
-      // this `thresholds` key -- or the whole `coverage` block, and switch
-      // ci.yml back to `pnpm test` -- if you don't want coverage enforced.
+      // Remove to stop enforcing coverage (also revert ci.yml's pnpm coverage -> pnpm test)
       thresholds: {
         lines: 70,
         branches: 70,
