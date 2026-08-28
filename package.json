@@ -19,7 +19,6 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.9.1",
-    "jsdom": "^30.0.1",
     "knip": "^6.32.3",
     "prettier": "^3.9.6",
     "typescript": "^6.0.3",
