@@ -18,6 +18,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write 'src/**/*.ts'",
+    "format-check": "prettier --check 'src/**/*.ts'",
     "lint": "eslint",
     "knip": "knip"
   },
