@@ -13,7 +13,7 @@ them accordingly.
 ## Install
 
 ```sh
-yarn add package-name
+pnpm add package-name
 ```
 
 ## Usage
